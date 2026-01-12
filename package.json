@@ -1,0 +1,42 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Just a startup project for my Intership @ Conversation Starters",
+  "keywords": [
+    "typescript",
+    "private"
+  ],
+  "homepage": "https://github.com/l1203012/internship_ts_application#readme",
+  "bugs": {
+    "url": "https://github.com/l1203012/internship_ts_application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1203012/internship_ts_application.git"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "AdamElk"
+  },
+  "type": "commonjs",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
